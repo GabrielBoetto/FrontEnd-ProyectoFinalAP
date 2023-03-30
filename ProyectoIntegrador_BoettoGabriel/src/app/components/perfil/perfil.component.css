@@ -11,13 +11,22 @@ span{
     color: aliceblue;
     font-weight:bold;
     font-size: medium;
-    margin-top: 35px;
+    margin-top: 55px;
 }
 /*Estilo de la foto de perfil*/
-@media(min-width:576px){
+@media (min-width: 576px){
     #fotodeperfil{
         position: absolute;
-        width: 15%;
-        left: 10px;
+         width: 15%; 
+         left: 15px;
+         top: 840px;
+    }
+}
+@media (max-width: 575px){
+    #fotodeperfil{
+        position: absolute;
+         width: 50%; 
+         left: 35%;
+         top: 630px;
     }
 }
