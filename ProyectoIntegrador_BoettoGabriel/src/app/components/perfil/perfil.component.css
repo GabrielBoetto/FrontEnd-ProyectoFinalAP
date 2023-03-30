@@ -1,3 +1,23 @@
-#contexto{
- margin-right: 0px;
+.row{
+    padding: 20px;
+}
+div{
+    background-color: #1b1b1b; 
+}
+span{
+    color: aliceblue;
+}
+#titulo{
+    color: aliceblue;
+    font-weight:bold;
+    font-size: medium;
+    margin-top: 35px;
+}
+/*Estilo de la foto de perfil*/
+@media(min-width:576px){
+    #fotodeperfil{
+        position: absolute;
+        width: 15%;
+        left: 10px;
+    }
 }
