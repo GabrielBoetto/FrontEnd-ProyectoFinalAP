@@ -1,4 +1,13 @@
 video{
     width: 100%;
-    height: 700px;
 }
+.no-padding{
+    padding: 0px;
+}
+/* @media (max-width: 575px){
+    div{
+        width: 100%;
+        height: 100%;
+        margin-top: 0px;
+    }
+} */
