@@ -8,3 +8,11 @@ h3, h4{
 li{
     color: #44009c;
 }
+#cuadro-experiencia{
+    background-color: #44009c;
+    border-radius: 10px;
+    overflow: hidden;
+}
+ul{
+    margin-top: 10px;
+}

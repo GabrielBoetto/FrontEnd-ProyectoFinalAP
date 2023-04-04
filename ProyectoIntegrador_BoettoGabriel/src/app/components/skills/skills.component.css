@@ -1,18 +1,11 @@
 .row{
     padding: 20px;
 }
-h3, h4{
-    display: inline;
-    color: aliceblue;
-}
-li{
-    color: #44009c;
-}
-#cuadro-educacion{
+#cuadro-skills{
     background-color: #44009c;
     border-radius: 10px;
     overflow: hidden;
 }
-ul{
+circle-progress{
     margin-top: 10px;
 }
