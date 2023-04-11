@@ -1,12 +1,75 @@
-img{
+#linkedin{
+    width: 35px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+#instagram{
+    width: 35px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+#facebook{
+    width: 35px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+#github{
+    width: 35px;
+    margin-right: 10px;
+    margin-top: 30px;
+}
+#botonlogin{
+    width: 12%;
+    margin-top: 30px;
+} 
+@media (max-width: 575px){
+    #linkedin{
+        width: 25px;
+        margin-right: 3px;
+        margin-top: 20px;
+    }
+    #instagram{
+        width: 25px;
+        margin-right: 3px;
+        margin-top: 20px;
+    }
+    #facebook{
+        width: 25px;
+        margin-right: 3px;
+        margin-top: 20px;
+    }
+    #github{
+        width: 25px;
+        margin-right: 3px;
+        margin-top: 20px;
+    }
+    #botonlogin{
+        width: 28%;
+        margin-top: 20px;
+    } 
+}
+
+
+
+
+
+/* img{
     width: 35px;
     margin-right: 10px;
     margin-top: 30px;
 }
 @media (max-width: 575px){
+
     img{
         width: 25px;
         margin-right: 3px;
+        margin-top: 20px;
 
     }
+    #botonlogin{
+        width: 500px;
+    }
 }
+#botonlogin{
+    width: 12%;
+} */
