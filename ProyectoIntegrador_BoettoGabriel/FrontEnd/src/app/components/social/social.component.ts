@@ -1,10 +1,31 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { Route, Router } from '@angular/router';
+import { TokenService } from 'src/app/service/token.service';
 
 @Component({
   selector: 'app-social',
   templateUrl: './social.component.html',
   styleUrls: ['./social.component.css']
 })
-export class SocialComponent {
+export class SocialComponent implements OnInit{
+  isLogged = false;
 
+  constructor(private router:Router, private tokenService: TokenService){}
+
+  ngOnInit(): void {
+    if(this,this.tokenService.getToken()){
+      this.isLogged=true;
+    }else{
+      this.isLogged = false;
+    }
+  }
+
+  onLogOut(){
+    this.tokenService.logOut();
+    window.location.reload();
+  }
+
+  login(){
+    this.router.navigate(['/login'])
+  }
 }
