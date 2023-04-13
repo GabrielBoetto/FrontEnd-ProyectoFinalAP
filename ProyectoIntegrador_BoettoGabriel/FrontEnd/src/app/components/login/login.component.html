@@ -20,15 +20,15 @@
 
                   <h5 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Sign into your account</h5>
 
-                  <form>
+                  <form #f="ngForm" (ngSubmit)="onLogin()" novalidate> 
 
                     <div class="form-outline mb-4">
-                      <input type="email" id="nombreUsuario" name="nombreUsuario" class="form-control form-control-lg" required />
+                      <input type="email" id="nombreUsuario" name="nombreUsuario" class="form-control form-control-lg" [(ngModel)]="nombreUsuario" required />
                       <label class="form-label" for="nombreUsuario">Usuario</label>
                     </div>
 
                     <div class="form-outline mb-4">
-                      <input type="password" id="password" name="password" class="form-control form-control-lg" required  />
+                      <input type="password" id="password" name="password" class="form-control form-control-lg" [(ngModel)]="password" required  />
                       <label class="form-label" for="password">Password</label>
                     </div>
 
