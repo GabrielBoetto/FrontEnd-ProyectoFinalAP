@@ -20,7 +20,7 @@ export class SocialComponent implements OnInit{
     }
   }
 
-  onLogOut(){
+  onLogOut():void{
     this.tokenService.logOut();
     window.location.reload();
   }
