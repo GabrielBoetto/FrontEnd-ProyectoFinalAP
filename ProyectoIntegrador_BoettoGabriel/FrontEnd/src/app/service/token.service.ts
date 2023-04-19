@@ -48,6 +48,6 @@ export class TokenService {
   }
 
   public logOut(): void{
-    window.sessionStorage
+    window.sessionStorage.clear();
   }
 }
