@@ -5,7 +5,7 @@ h3, h4{
     display: inline;
     color: aliceblue;
 }
-h1{
+li{
     color: #44009c;
 }
 #cuadro-experiencia{
@@ -20,15 +20,7 @@ ul{
     display: inline;
     color: aliceblue;
 }
-@media (max-width: 575px){
-    #btn-edit{
-        position: absolute;
-        width: 50px;
-    }
-    #btn-delete{
-        position: relative;
-        top: 30px;
-        right: 8px;
-        width: 50px;
-    }
+body{
+    margin: 0%;
+    background-color: #303030;
 }
