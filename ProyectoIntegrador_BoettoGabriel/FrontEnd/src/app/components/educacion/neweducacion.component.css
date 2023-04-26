@@ -1,0 +1,26 @@
+.row{
+    padding: 20px;
+}
+h3, h4{
+    display: inline;
+    color: aliceblue;
+}
+li{
+    color: #44009c;
+}
+#cuadro-educacion{
+    background-color: #44009c;
+    border-radius: 10px;
+    overflow: hidden;
+}
+ul{
+    margin-top: 10px;
+}
+.div{
+    display: inline;
+    color: aliceblue;
+}
+body{
+    margin: 0%;
+    background-color: #303030;
+} 

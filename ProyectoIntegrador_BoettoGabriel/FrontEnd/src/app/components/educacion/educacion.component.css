@@ -5,7 +5,7 @@ h3, h4{
     display: inline;
     color: aliceblue;
 }
-li{
+h1{
     color: #44009c;
 }
 #cuadro-educacion{
@@ -16,3 +16,69 @@ li{
 ul{
     margin-top: 10px;
 }
+.div{
+    display: inline;
+    color: aliceblue;
+}
+.button-wrapper{
+    display: flex;
+}
+@media (max-width: 575px){
+    #btn-edit{
+        /* position: relative; */
+        width: 50px;
+    }
+    #btn-delete{
+        /* position: relative; */
+        /* top: 30px;
+        right: 8px; */
+        width: 50px;
+    }
+    .normalizar-table{
+        padding: 0;
+    }
+    .button-wrapper{
+        flex-direction: column;
+    }
+}
+/* ul{
+    margin-top: 10px;
+}
+.div{
+    display: inline;
+    color: aliceblue;
+}
+.row{
+    padding: 20px;
+}
+#cuadro-educacion{
+    background-color: #44009c;
+    border-radius: 10px;
+    overflow: hidden;
+}
+@media (max-width: 575px){
+    #btn-edit{
+        position: absolute;
+        width: 50px;
+    }
+    #btn-delete{
+        position: relative;
+        top: 30px;
+        right: 8px;
+        width: 50px;
+    }
+    .normalizar-table{
+        padding: 0;
+    } */
+    /* #btn-edit{
+        position: absolute;
+        width: 35px;
+        right: 1px;
+    }
+    #btn-delete{
+        position: relative; 
+        top: 30px;
+        right: 18.5px;
+        width: 35px;
+    } */
+

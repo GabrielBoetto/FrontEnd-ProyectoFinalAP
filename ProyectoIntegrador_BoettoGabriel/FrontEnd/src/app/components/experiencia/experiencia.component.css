@@ -31,4 +31,7 @@ ul{
         right: 8px;
         width: 50px;
     }
+    .normalizar-table{
+        padding: 0;
+    }
 }
