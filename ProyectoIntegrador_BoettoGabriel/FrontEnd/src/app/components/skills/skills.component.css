@@ -8,6 +8,11 @@
 }
 circle-progress{
     margin-top: 10px;
-   display: flex;
-
+    display: flex;
+    margin-left: 17%;
+}
+@media (max-width: 575px){
+    circle-progress{
+        margin-left: 7%;
+    }
 }
