@@ -13,6 +13,6 @@ circle-progress{
 }
 @media (max-width: 575px){
     circle-progress{
-        margin-left: 7%;
+        margin-left: 10%;
     }
 }
